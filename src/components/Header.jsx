@@ -9,7 +9,7 @@ const Header = ({ presupuesto, setPresupuesto, isValidPresupuesto, setIsValidPre
         <ControlPresupuesto
           gastos={gastos}
           setGastos={setGastos}
-          presupuesto={presupuesto}
+          presupuesto={Number(presupuesto)}
           setPresupuesto= {setPresupuesto}
           setIsValidPresupuesto={setIsValidPresupuesto}
         />

@@ -197,6 +197,7 @@ header h1 {
 .formulario input[type="number"].nuevo-presupuesto {
     font-size: 2.8rem;
     text-align: center;
+    width: 100%;
 }
 
 .contenedor-presupuesto svg {
@@ -438,4 +439,13 @@ body .modal {
     align-items: center;
     font-size: 2.4rem;
     text-align: right;
+}
+
+@media (max-width: 427px) {
+    .selector-nuevo {
+        width: 100%;
+    }
+    .label-nuevo {
+        font-size: 2.2rem !important;
+    }
 }
