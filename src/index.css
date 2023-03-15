@@ -448,4 +448,7 @@ body .modal {
     .label-nuevo {
         font-size: 2.2rem !important;
     }
+    .modal .formulario {
+        width: 30rem !important;
+    }
 }
